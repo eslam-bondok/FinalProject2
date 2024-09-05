@@ -1,0 +1,463 @@
+ * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: auto;
+    overflow-x: hidden;
+
+}
+
+.navbar-brand {
+    color: #ffffff;
+}
+
+/*----_section1_----*/
+
+.section1 {
+    height: 110vh;
+    background-color: rgb(46, 46, 101);
+    background-image: url(./css/imgs/hero-bg.png);
+
+}
+
+.section1 .nav-item {
+    display: flex;
+    align-items: center;
+    margin: 0px 13px;
+}
+.section1 .navbar{
+    position: fixed;
+    width: 90%;
+    top:0px;
+    background-color: rgb(46, 46, 101);
+
+}
+.section1 .nav-item .nav-link{
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+   color: #f6f2f2;
+}
+
+#ziptext:focus{
+ box-shadow: none;
+}
+#btnform1{
+    color: #f7f4f5;
+    font-weight: bold;
+    border: 0px;
+}
+.row .colum h1{
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bold;
+}
+.section1 .header_img{
+    transform: scale(0.8);
+}
+/*-----Taplet----*/
+@media(max-width :768px){
+    .section1{
+        height: auto;
+    }
+    .section1_content_img{
+        order: -1;
+    }
+}
+/*----Mobile----*/
+
+@media(max-width :552px){
+    .row .colum h1{
+        font-size: 40px;
+    
+    }
+    .Num_section1{
+        font-size:17px ;
+    }
+    
+}
+
+/*----End_section1----*/
+
+
+
+
+
+
+
+
+
+/*----- section2 -----*/
+/*----- About_Us -----*/
+
+.section2 .card:hover .fa-cart-arrow-down{
+    color: rgb(27, 27, 208);
+}
+.section2 .card:hover .card-title a{
+    color: blue !important;
+}
+.section2 .card:hover .card-text a{
+    color: blue !important;
+
+}
+.section2 .card:hover .fa-truck{
+    color: rgb(27, 27, 208);
+}
+.section2 .card:hover .fa-truck-ramp-box{
+    color: rgb(27, 27, 208);
+}
+
+/*---- End_section2 ----*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----- section3 -----*/
+/*----- Services -----*/
+
+.section3 .title{
+    width: 100%;
+    height:85px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3 .title .Bg{
+position: absolute;
+transform: scale(1.4 ,1.7);
+color: rgba(139, 138, 138, 0.658);
+opacity: 0.2;
+font-weight: bold;
+
+
+}
+
+.section3 .title .head{
+    position: absolute;
+    font-size: 42px;
+    color: rgb(46, 46, 101);
+    font-weight: bold;
+    padding-top: 8px;
+
+}
+.section3 .title .underline{
+    width: 60px;
+    height: 3px;
+    background-color: rgb(26, 26, 144);
+    position: absolute;
+    bottom: 0px;
+   
+
+}
+.section3 .section3_cardy:hover .card-title{
+    color: blue;
+
+
+}
+
+/*---- End_section3 ----*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------    section4      ----------*/
+.section4 .btn_card{
+    color: #f6f2f2;
+}
+
+@media(max-width :552px){
+    .section4_content{
+        padding: 10px;
+    }
+   .section4_content p{
+    font-size: 17px;
+   }
+    
+}
+
+/*---- End_section4 ----*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------    section5     ----------*/
+.center-card {
+    width: 80%;
+    margin:0px auto;
+    position: relative;
+}
+
+.large-img {
+    width: 100%;
+    max-width: 600px; 
+  }
+  .my-5 {
+    margin-top: 4rem !important;
+    margin-bottom: 4rem !important;}
+
+/*---- End_section5 ----*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------    section6     ----------*/
+
+.pricing-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow:4px 2px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    text-align: left;
+}
+.pricing-card h3 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+.pricing-card span {
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+   color: rgb(46, 46, 101);
+}
+.pricing-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;   
+}
+.pricing-card ul li {
+    margin: 10px 0;
+    padding: 10px;
+
+}
+.pricing-card ul li .text-muted {
+    text-decoration: line-through;
+}
+.pricing-card .btn-primary {
+    margin-top: 20px;
+}
+/*---- End_section6 ----*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------- section7  ----------*/
+@media(max-width :552px){
+    .container.section3 .title h1{
+        font-size: 20px ;
+    }
+
+}
+
+
+
+
+.accordion-button:not(.collapsed){
+    background-color:white;
+    box-shadow: inset 0 calc(-1* var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
+
+.accordion-button:not(.collapsed):hover{
+    color: blue;
+    background-color: #F7F8F9;
+}
+
+.accordion-button{
+    background-color:#F7F8F9 ;
+    margin-bottom: 10px;
+    color:rgb(46, 46, 101) ;
+
+}
+.accordion-item {
+    border: none;
+    background-color:#F7F8F9 ;
+        color:rgb(46, 46, 101) ;
+
+}
+.accordion{
+    --bs-accordion-border-color: none;
+    
+}
+.accordion-body{
+    padding: 0 30px 25px 60px;
+    color:rgb(46, 46, 101) ;
+}
+
+
+
+/*----   End_section7  ----*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------- section8  ----------*/
+
+.section8_pricing{
+    height: 70vh;
+    background-image: url(./css/imgs/testimonials-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 150px;
+}
+
+.section8_pricing .layout{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(56, 54, 54, 0.7);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.section8_pricing .layout .slider{
+    width: 70%;
+    height: 80%;
+    margin: auto;
+}
+.carousel-item {
+    text-align: center;
+    padding-top: 20px;
+}
+
+ .carousel-item img{
+    border: 2px solid rgba(209, 206, 206, 0.808);
+
+}
+.carousel-indicators [data-bs-target]{
+    width: 15px !important; 
+    height:15px !important; 
+    border-radius: 50% !important;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.fa-star{
+    color: rgb(255, 217, 0);
+}
+.fa-star-half-stroke{
+    color: rgb(255, 217, 0);
+}
+/*----   End_section8  ----*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+.Footer{
+    height: auto;
+    background-color: #0E1D34;
+
+
+}
+.Footer .UsefulLinks{
+    padding: 0px;
+}
+
+.Footer .UsefulLinks li{
+    list-style-type: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+
+}
+.Footer .UsefulLinks li:hover{
+    color: rgb(179, 175, 175);
+}
+
+/*Tap*/
+@media(max-width :780px){
+    .Tech{
+        margin: 10px 0px;
+    }
+    .Order-footer{
+        margin: 15px 0px;
+
+    }
+}
+
+
+/* Footer */

@@ -1,0 +1,320 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: auto;
+    overflow-x: hidden;
+
+}
+
+.navbar-brand {
+    color: #ffffff;
+}
+
+/*----_section1_----*/
+
+.section1 {
+    height: 60vh;
+    width: 100%;
+    background-color: rgb(46, 46, 101);
+    background-image: url(./css/imgs/page-header.jpg);
+
+}
+
+.section1 .nav-item {
+    display: flex;
+    align-items: center;
+    margin: 0px 13px;
+}
+
+.section1 .navbar {
+    position: fixed;
+    width: 90%;
+    top: 0px;
+    background-color: rgb(46, 46, 101);
+
+}
+
+.section1 .nav-item .nav-link {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: #f6f2f2;
+}
+
+#ziptext:focus {
+    box-shadow: none;
+}
+
+#btnform1 {
+    color: #f7f4f5;
+    font-weight: bold;
+    border: 0px;
+}
+
+/*-----Tablet----*/
+@media(max-width :768px) {
+    .section1 {
+        height: auto;
+    }
+
+    .section1_content_img {
+        order: -1;
+    }
+}
+
+.section1 .layout {
+    width: 100%;
+    height: 100%;
+    background-color: #1b1b3aae;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.section1-para h1 {
+    font-size: 50px;
+}
+
+/*----Mobile----*/
+
+@media(max-width :552px) {
+    .row .colum h1 {
+        font-size: 40px;
+
+    }
+
+    .Num_section1 {
+        font-size: 17px;
+    }
+
+    .section1-para h1 {
+        font-size: 35px;
+    }
+
+}
+
+/*----End_section1----*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------    section6     ----------*/
+
+.section3 .title{
+    width: 100%;
+    height:85px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3 .title .Bg{
+position: absolute;
+transform: scale(1.4 ,1.7);
+color: rgba(139, 138, 138, 0.658);
+opacity: 0.2;
+font-weight: bold;
+
+
+}
+
+.section3 .title .head{
+    position: absolute;
+    font-size: 42px;
+    color: rgb(46, 46, 101);
+    font-weight: bold;
+    padding-top: 8px;
+
+}
+.section3 .title .underline{
+    width: 60px;
+    height: 3px;
+    background-color: rgb(26, 26, 144);
+    position: absolute;
+    bottom: 0px;
+   
+
+}
+
+
+
+.pricing-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow:4px 2px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    text-align: left;
+}
+.pricing-card h3 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+.pricing-card span {
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+   color: rgb(46, 46, 101);
+}
+.pricing-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;   
+}
+.pricing-card ul li {
+    margin: 10px 0;
+    padding: 10px;
+
+}
+.pricing-card ul li .text-muted {
+    text-decoration: line-through;
+}
+.pricing-card .btn-primary {
+    margin-top: 20px;
+}
+/*---- End_section6 ----*/
+
+
+
+
+
+
+
+
+.Horizontal-Pricing-card {
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 30px 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.Horizontal-Pricing-card h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.Horizontal-Pricing-card .price span {
+    font-size: 40px;
+    color: rgb(46, 46, 101);
+}
+
+.Horizontal-Pricing-card ul {
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.Horizontal-Pricing-card ul li {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.Horizontal-Pricing-card.bg-primary ul li {
+    color: white;
+}
+
+.Horizontal-Pricing-card ul li i {
+    margin-right: 10px;
+}
+
+.Horizontal-Pricing-card .btn {
+    border-radius: 50px;
+    padding: 10px 30px;
+    width: 100%;
+}
+
+.Horizontal-Pricing-card.bg-primary .btn {
+    background-color: white;
+    color: rgb(46, 46, 101);
+}
+
+.Horizontal-Pricing-card.bg-primary h3,
+.Horizontal-Pricing-card.bg-primary .price {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+.Footer{
+    height: auto;
+    background-color: #0E1D34;
+
+
+}
+.Footer .UsefulLinks{
+    padding: 0px;
+}
+
+.Footer .UsefulLinks li{
+    list-style-type: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+
+}
+.Footer .UsefulLinks li:hover{
+    color: rgb(179, 175, 175);
+}
+
+/*Tap*/
+@media(max-width :780px){
+    .Tech{
+        margin: 10px 0px;
+    }
+    .Order-footer{
+        margin: 15px 0px;
+
+    }
+}
+
+
+/* Footer */

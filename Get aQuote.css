@@ -1,0 +1,179 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: auto;
+    overflow-x: hidden;
+
+}
+
+.navbar-brand {
+    color: #ffffff;
+}
+
+
+
+
+
+/*----_section1_----*/
+
+.section1 {
+    height: 60vh;
+    width: 100%;
+    background-color: rgb(46, 46, 101);
+    background-image: url(./css/imgs/page-header.jpg);
+
+}
+
+.section1 .nav-item {
+    display: flex;
+    align-items: center;
+    margin: 0px 13px;
+}
+
+.section1 .navbar {
+    position: fixed;
+    width: 90%;
+    top: 0px;
+    background-color: rgb(46, 46, 101);
+
+}
+
+.section1 .nav-item .nav-link {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: #f6f2f2;
+}
+
+#ziptext:focus {
+    box-shadow: none;
+}
+
+#btnform1 {
+    color: #f7f4f5;
+    font-weight: bold;
+    border: 0px;
+}
+
+/*-----Tablet----*/
+@media(max-width :768px) {
+    .section1 {
+        height: auto;
+    }
+
+    .section1_content_img {
+        order: -1;
+    }
+}
+
+.section1 .layout {
+    width: 100%;
+    height: 100%;
+    background-color: #1b1b3aae;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.section1-para h1 {
+    font-size: 50px;
+}
+
+/*----Mobile----*/
+
+@media(max-width :552px) {
+    .row .colum h1 {
+        font-size: 40px;
+
+    }
+
+    .Num_section1 {
+        font-size: 17px;
+    }
+
+    .section1-para h1 {
+        font-size: 35px;
+    }
+
+}
+
+/*----End_section1----*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-form {
+    width: 80%;
+    height: auto;
+}
+
+/*----Mobile----*/
+
+@media(max-width :552px) {
+    .container-form {
+        width: auto;
+        height: auto;
+    }
+
+}
+
+
+
+
+
+
+
+/* Footer */
+.Footer {
+    height: auto;
+    background-color: #0E1D34;
+
+
+}
+
+.Footer .UsefulLinks {
+    padding: 0px;
+}
+
+.Footer .UsefulLinks li {
+    list-style-type: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+
+}
+
+.Footer .UsefulLinks li:hover {
+    color: rgb(179, 175, 175);
+}
+
+/*Tap*/
+@media(max-width :780px) {
+    .Tech {
+        margin: 10px 0px;
+    }
+
+    .Order-footer {
+        margin: 15px 0px;
+
+    }
+}
+
+
+/* Footer */
